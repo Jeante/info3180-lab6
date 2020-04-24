@@ -5,3 +5,41 @@ body {
 footer  {
     padding-top: 20px;
 }
+
+
+
+.imgc {
+    background-color: white;
+    cursor: pointer;
+    box-shadow: 1px 0px 1px 1px lightgray;
+    border-radius:5px;
+    overflow: hidden;
+    display: block;
+    width: 175px;
+    height: 175px;
+}
+
+.news__list {
+
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+
+.news__item{
+
+    flex:3;
+    padding: 10px;
+    border: 10px;
+    align-items: stretch;
+    box-shadow: 5px 5px 5px lightgray;
+    margin: 20px;
+    border-radius:5px;
+    border-top:5px solid #41B883;
+
+}
+
+ul{
+    list-style: none;
+}
