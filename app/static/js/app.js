@@ -70,7 +70,7 @@ id="search" class="form-control mb-2 mr-sm-2" placeholder="Enter search term her
 
   created: function() {
     let self=this;
-    fetch('https://newsapi.org/v2/top-headlines?country=us&apiKey=de633ce4d1604ca995f28de18194aafc').then(function(response) {
+    fetch('https://newsapi.org/v2/top-headlines?country=us&apiKey=').then(function(response) {
     return response.json();
     })
     .then(function(data) {
